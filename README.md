@@ -35,7 +35,7 @@ you can specify a title with
 {% endcollapse %}
 ``` 
 
-and a color bs4 color name
+and a bs4 color name
 
 ```html
 {% collapse color="primary" %}
