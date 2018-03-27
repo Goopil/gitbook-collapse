@@ -1,5 +1,5 @@
 .wrap-collabsible {
-    margin-bottom: 1.2rem 0;
+    margin: 4px;
 }
 
 input[type='checkbox'] {
@@ -76,18 +76,19 @@ input[type='checkbox'] {
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-height: 0px;
+    max-height: 0;
     overflow: hidden;
     transition: .25s ease-in-out;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-    max-height: 350px;
+    max-height: 10000px;
 }
 
 .toggle:checked + .lbl-toggle {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+    margin: -1px;
 }
 
 .collapsible-content .content-inner {
