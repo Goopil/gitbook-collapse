@@ -1,5 +1,5 @@
 {
-    "name": "gitbook-collapse",
+    "name": "gitbook-plugin-collapse",
     "description": "add css collapse block",
     "main": "index.js",
     "version": "0.0.1",
