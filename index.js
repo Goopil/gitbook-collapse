@@ -15,7 +15,6 @@ module.exports = {
       process: function (blk) {
         const processMarkDown = blk.kwargs.process !== false
         const title = blk.kwargs.title || ''
-        const title = blk.kwargs.title || ''
 
         function format(body, summary) {
           summary = summary || ''
