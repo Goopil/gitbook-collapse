@@ -35,40 +35,15 @@ you can specify a title with
 {% endcollapse %}
 ``` 
 
-and a bs4 color name
+specify no process in the block
 
 ```html
-{% collapse color="primary" %}
+{% collapse title="my list", process=false %}
 
-* list 1
-* list 2
-* list 3
-    * list 3.1
+<h1>hello</h1>
     
 {% endcollapse %}
 ``` 
-
-and obviously both
-
-```html
-{% collapse title="my list", color="info" %}
-
-* list 1
-* list 2
-* list 3
-    * list 3.1
-    
-{% endcollapse %}
-``` 
-
-### Color names
-* primary
-* secondary
-* success
-* danger
-* warning
-* info
-
 
 ## Todo
 
