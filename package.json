@@ -2,12 +2,17 @@
     "name": "gitbook-plugin-collapse",
     "description": "add css collapse block",
     "main": "index.js",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "gitbook": ">=3"
     },
     "license": "MIT",
     "dependencies": {
         "npm": "^5.8.0"
+    },
+    "homepage": "https://github.com/Goopil/gitbook-collapse",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Goopil/gitbook-collapse.git"
     }
 }
